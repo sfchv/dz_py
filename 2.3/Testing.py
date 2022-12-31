@@ -84,7 +84,7 @@ class UserInterface:
 
         >>> u = UserInterface()
         >>> u.file_name
-        '../vacancies_medium.csv'
+        'vacancies_medium.csv'
         >>> u.profession_name
         'Программист'
         >>> i = UserInterface('example.csv')
@@ -97,7 +97,7 @@ class UserInterface:
         if file_name is not None:
             self.file_name = file_name
         else:
-            self.file_name = "../vacancies_medium.csv"
+            self.file_name = "vacancies_medium.csv"
         if profession_name is not None:
             self.profession_name = profession_name
         else:
